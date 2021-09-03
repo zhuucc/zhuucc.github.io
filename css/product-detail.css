@@ -1,0 +1,124 @@
+.product-detail-container{
+    width: 70vw;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* 表格 */
+/* .product-detail-container .product-section-med .table-group{
+    padding: 20px;
+} */
+
+/* .product-detail-container .product-section-med caption{
+    font-size: 18px;
+    margin-bottom: 10px;
+} */
+
+/* .product-detail-container .product-section-med th,td{
+    border: 1px solid black;
+} */
+
+/* .product-detail-container .product-section-med .table-group th{
+    color: white;
+    background-color: #333335;
+    font-weight: 400;
+    border-bottom : 1px solid #a7a3a1;
+} */
+
+/* .product-detail-container .product-section-med ul{
+    margin: 0;
+} */
+
+/* .product-detail-container .product-section-med .table-group2 th{
+    background-color: #EEEEEE;
+    font-weight: 500;
+} */
+
+/* .product-detail-group th{
+    width: 100px;
+} */
+
+.product-detail-container .section-top{
+    margin-bottom: 20px;
+}
+
+.product-detail-group{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-detail-group .imgbox{
+    text-align:end;
+}
+
+.product-detail-group .imgbox img {
+    padding-right: 50px;
+    width: 500px;
+}
+
+.product-detail-group .product-detail-top{
+    margin-bottom: 40px;
+}
+
+.product-detail-group .product-title{
+    font-size: 20px;
+}
+
+.product-detail-group ul li{
+   list-style-type:disc; 
+   margin-left: 20px;
+}
+
+
+@media(max-width: 1400px){
+    .product-detail-container{
+        width: 85vw;
+    }
+
+    .product-detail-group .imgbox{
+        text-align:center;
+    }
+
+    .product-detail-group .imgbox img {
+        padding-right: 0;
+    }
+
+    .product-detail-container .row .l7{
+        padding-left: 100px;
+    }
+
+}
+
+
+@media(max-width: 850px){
+    .product-detail-container{
+        width: 80vw;
+    }
+
+    .product-detail-container .row .l7{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media(max-width: 500px){
+    .product-detail-container{
+        width: 80vw;
+    }
+
+    .product-detail-group .imgbox img {
+        width: 100%;
+    }
+
+    .section-top .section-title .titlename{  
+        font-size: 24px;
+    }
+
+    .product-detail-group .product-title{
+        text-align: center;
+    }
+
+}
+
+
